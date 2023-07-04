@@ -1,0 +1,30 @@
+{
+  "name": "@yuerpkg/tiny-helper",
+  "version": "0.1.0",
+  "description": "tiny helper function",
+  "main": "dist/bundle.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "keywords": [
+    "helper",
+    "utils"
+  ],
+  "author": "yuer",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@vitest/ui": "^0.32.4",
+    "happy-dom": "^9.20.3",
+    "rollup": "^3.26.0",
+    "vitest": "^0.32.4"
+  }
+}
